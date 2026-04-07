@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #282828;
+    color: whitesmoke;
+    font-family: Inter;
+}
+
+
+main{
+    height: 100vh;
+}
+
+div.autoframe {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+div.topContainer{
+    display: flex;
+    align-items: end;
+    gap: 16px;
+}
+
+div.bottomContainer {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    gap: 32px;
+}
+
+
+.logo {
+    width: 125px;
+    height: 125px;
+}
+
+.autocenter {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+
+
+footer{
+    height: 80px;
+    background-color: black;
+}
+
+
+
+
+.bigButton {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    font-size: 4rem;
+    color: whitesmoke;
+    font-weight: 800;
+    flex: 1;
+    min-height: 192px;
+    text-decoration: none;
+    background-color: #de235f;
+    border-radius: 48px;
+}
